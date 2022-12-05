@@ -1,4 +1,4 @@
-# World Of Warcraft Patch Notes
+# Lorem Museum
 
 ![museum](https://user-images.githubusercontent.com/100193213/205646088-59535972-1472-483f-95a8-721bbe025ccf.png)
 
