@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View all our amazing events and learn from our fantastic scientists. Our events get updated weekly and our employees try make great exebitions and events for you at all times. See what we currently have going on and visit us!" />
+    <title>Lorem Museum | Exebitions & Events</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/eb.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/690f4b3e4c.js" crossorigin="anonymous"></script>
+<head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="/images/open-science-735787.png" alt="The museums logo"></a>
+                <div class="menu-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()" ></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="eb.html">Exebitions & Events</a></li>
+                        <li><a href="book.html">Booking</a></li>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </section>
+        <section class="eventrow">
+            <div class="event-col">
+                <img src="/images/roberto-nickson-396152.jpg" alt="Picture of the libary and the event that will be there.">
+                <h3>Libary</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non elit non justo fringilla volutpat. Aliquam ac vestibulum ex. Maecenas.</p>
+                <a href="/book.html" class="button">Book</a>
+                <p>23 May-19 July 2022</p>
+            </div>
+            <div class="event-col">
+                <img src="/images/samuel-zeller-113381.jpg" alt="Picture for Dr. Jackson speaking about the dinosaurs.">
+                <h3>Dr. Jackson speaking</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non elit non justo fringilla volutpat. Aliquam ac vestibulum ex. Maecenas.</p>
+                <a href="/book.html" class="button">Book</a>
+                <p>23 May-19 July 2022</p>
+            </div>
+        </section>
+        <section class="eventrow">
+            <div class="event-col">
+                <img src="/images/samuel-zeller-158996.jpg" alt="Picture showing the VR and future exebition.">
+                <h3>AI & The Future</h3>
+                <p>Come and see our new VR world and be amazed thorough our new VR glasses. Experience either the past or the future!</p>
+                <a href="/book.html" class="button">Book</a>
+                <p>23 May-19 July 2022</p>
+            </div>
+            <div class="event-col">
+                <img src="/images/teacherrender.jpg" alt="Picture of the chemestry for children event.">
+                <h3>Chemestry for small scientists</h3>
+                <p>Come and learn from our great scientists and join us doing amazing things with basic house hold items!
+                </p>
+                <a href="/book.html" class="button">Book</a>
+                <p>23 May-19 July 2022</p>
+            </div>
+
+        </section>
+        <section class="footer">
+            <h4>Find Us At</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et ultricies tortor. 
+                Fusce ornare elit at dui convallis, a sodales dui pharetra.</p>
+            <div class="icon">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin-square"></i>
+            </div> 
+            <p>©Copyrigth. All rigths reserved.</p>   
+        </section>
+            <script>
+        var navLinks = document.getElementById("navLinks");
+    
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    
+    </script>
+    </body>
+</head>            
+</html>

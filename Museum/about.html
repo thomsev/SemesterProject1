@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn and Experience our great museum and explore our great facilities. We are a modern museum that focuses on teaching kids with their parents about the past and whats to come in the future. So if you and your famility enjoys either dinosaurs or VR. Take a trip and visist us!" />
+    <title>Lorem Museum | About</title>
+    <link rel="stylesheet" href="/CSS/about.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/690f4b3e4c.js" crossorigin="anonymous"></script>
+<head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="/images/open-science-735787.png" alt="The museums logo"></a>
+                <div class="menu-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()" ></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="eb.html">Exebitions & Events</a></li>
+                        <li><a href="book.html">Booking</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </section>
+        <section class="about">
+           <div class="about-text">
+            <h1>About</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non faucibus lectus. Fusce consequat sapien vel volutpat facilisis.<br> Curabitur commodo tortor non tincidunt consequat. Vestibulum non nisi orci. Ut vitae feugiat metus. Nulla magna ex, maximus at urna eu, hendrerit.</p>
+            <a href="https://www.google.com/maps/place/Hundv%C3%A5g/@58.9970088,5.7327912,14z/data=!3m1!4b1!4m5!3m4!1s0x463bcabe84fc9217:0x13fe8498ecb3a5d2!8m2!3d59.003852!4d5.7353695">Find Us At</a>
+            <p>Kilenotveien 27, Hundvåg 4085. Norway</p>
+            <img src="/images/openinghours.jpg" alt="Picture of the opening hours">
+            <p>Contact if you have any questions about the museum and our opening times.</p>
+        </div> 
+        </section>
+        <section class="footer">
+            <h4>Find Us At</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et ultricies tortor. 
+                Fusce ornare elit at dui convallis, a sodales dui pharetra.</p>
+            <div class="icon">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin-square"></i>
+            </div> 
+            <p>©Copyrigth. All rigths reserved.</p>   
+        </section>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+        
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        
+        </script>
+    </body>
+</head>            
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact us for any questions regarding our amazing museum. We are always there to help in our opening hours so dont hessitate to contact us with our simple form." />
+    <title>Lorem Museum | Contact</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/690f4b3e4c.js" crossorigin="anonymous"></script>
+<head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="/images/open-science-735787.png" alt="The museums logo"></a>
+                <div class="menu-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()" ></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="eb.html">Exebitions & Events</a></li>
+                        <li><a href="book.html">Booking</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </section>
+        <section>
+            <div class="contact-box">
+                <div class="container"></div>
+                <form>
+                    <h3>Ask Us Anything</h3>   
+                    <input type="text" id="Name" placeholder="Your Name" required>  
+                    <input type="email" id="email" placeholder="Your Email" required>  
+                    <input type="text" id="phone" placeholder="Your Phone nr." required>  
+                    <label for="Exebition">Exebition</label>
+                    <select id="country" name="country">
+                      <option value="Exebition1">Exebition1</option>
+                      <option value="Exebition2">Exebition2</option>
+                      <option value="Exebition3">Exebition3</option>
+                      <option value="Exebition4">Exebition4</option>
+                    <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+                    <button type="submit">Send</button>
+                </form>    
+            </div>
+    </section>
+    <section class="footer">
+        <h4>Find Us At</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et ultricies tortor. 
+            Fusce ornare elit at dui convallis, a sodales dui pharetra.</p>
+        <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin-square"></i>
+        </div> 
+        <p>©Copyrigth. All rigths reserved.</p>   
+    </section>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+        
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        
+        </script>
+    </body>
+</head>            
+</html>

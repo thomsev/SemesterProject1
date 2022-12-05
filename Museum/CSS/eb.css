@@ -1,0 +1,96 @@
+
+.eventrow{
+    margin-top: -1%;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1000;
+    position: absolute;
+    left: 0px;
+    top: 600px;
+}
+.event-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.event-col img{
+    float: left;
+}
+.event-col button{
+        padding: 15px;
+        background: #000000;;
+        color: #fff;
+        font-size: 14px;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+        width: 100px;
+        margin: 20px auto 0;
+        border-radius: 30px;
+    }
+.event-col button:hover{
+        border: 1px solid #06D6A0;
+        background: #06D6A0;
+        transition: 1s;
+}
+.button{
+    display: inline-block;
+    text-decoration: 0;
+    color: rgb(2, 2, 2);
+    border: 3px solid rgb(2, 2, 2);
+    background: #000000;
+    padding: 20px 20px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor:pointer;
+    border-radius: 40px;
+}
+.button:hover{
+    border: 1px solid #06D6A0;
+    background: #06D6A0;
+    transition: 1s;
+}
+@media(max-width:700px){
+.eventrow p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.eventrow h3{
+    font-size: 20px;
+    margin: -10px;
+}
+.eventrow img{
+    height: 150px;
+}
+
+.eventrow{
+    margin-top: -1%;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1000;
+    position: absolute;
+    left: 0px;
+    top: 300px;
+}
+.button{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px;
+    border-width: 2px;
+}
+
+.event-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+}

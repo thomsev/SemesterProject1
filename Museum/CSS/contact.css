@@ -1,0 +1,115 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 70%;
+    height: auto;
+}
+form{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    opacity: 95%;
+    position: relative;
+    right: -30%;
+    top: 30px;
+    margin-top: -36%;  
+}
+form h3{
+     color:#06D6A0;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px; 
+}
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+}
+form button{
+    padding: 15px;
+    background: #000000;;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+form button:hover{
+    border: 1px solid #06D6A0;
+    background: #06D6A0;
+    transition: 1s;
+}
+@media(max-width:700px){
+    .container{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        width: 70%;
+        height: 200px;
+        margin-left:2.5%;
+        margin-right:2.5%;
+    }
+    form{
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        padding: 2vw 4vw;
+        width: 90%;
+        max-width: 400px;
+        border-radius: 10px;
+        opacity: 95%;
+        position: absolute;
+        right: 1%;
+        top: 400px; 
+    }
+    h1{
+        width: 90%;
+        color: rgb(255, 255, 255);
+        -webkit-text-stroke: 2px black;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: left;
+        font-size: 100px;
+    }
+    form h3{
+        font-weight: 400;
+        font-size: 30px;
+    }
+    form label{
+        font-size: 14px;
+        font-weight: 400;
+        margin: 1px;
+    }
+    form input{
+        font-size: 14px;
+        font-weight: 400;
+        margin: 1px;
+    }
+    form select{
+        margin: 1px;
+    }
+    form textarea{
+        font-size: 14px;
+        font-weight: 400;
+        margin: 1px;
+        height: 120px;
+    }
+}
